@@ -1,0 +1,2 @@
+# destilmatlabusb
+Versatile Matlab thermodynamics package that resolves Distillation columns by using shortcut methods and rigorous methods, enabled with a Matlab GUI, and powered by fully adaptable/programmable equations of state (EdE) that can be overwritten with own parameters or which methods can be replaced with in-built Matlab functions to model different equations. Comes pre-packaged with Peng-Robinson, Soave-Redlich-Kwong and Van der Waals EoS
