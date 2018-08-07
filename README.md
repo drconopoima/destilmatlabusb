@@ -45,7 +45,7 @@ If the interaction parameters kij are taken as ideal:
 kij = 0;
 ```
 
-Rhen to fully define the feeds, we create the following mixtures
+Then to fully define the feeds, we create the following mixtures
 
 ```
 mix1 = Mezcla(sust, conc1, kij);
