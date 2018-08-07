@@ -1,0 +1,350 @@
+Base de datos Antoine del Perry's Chemical Engineers Handbook
+Vapour pressures of substances: 
+(A) Ps = exp(C1+C2./T+C3.*lnT+C4.*T.^C5)./1000 kPa T in Kelvin         (B)   
+TABLE 2-8    Vapor Pressure of Inorganic and Organic Liquids, ln P = C1 + C2/T + C3 ln T + C4 T C5, P in Pa
+No.   Name                          Formula      C1        C2         C3          C4        C5    Tmin, K  Tmax, K
+ 1    Acetaldehyde                  C2H4O      3.68639  822.894    -69.899     4.3678E-02    1    293.4    377.5    B
+ 2    Acetamide                     C2H5NO     5.37110  2413.323   -45.444     5.0824E-06    2    338.0    495.0    B
+ 3    Aceticacid                    C2H4O2     4.68206  1642.54    -39.764     6             2    290.26   391.01   B
+ 4    Aceticanhydride               C4H6O3     4.24655  1427.77    -75.113     6.1316E-06    2    335.99   412.57   B
+ 5    Acetone                       C3H6O      4.42448  1312.253   -32.445     6.2237E-06    2    259.16   507.6    B
+ 6    Acetonitrile                  C2H3N      
+ 7    Acetylene                     C2H2       4.66141  909.079    7.947       2.3930E-16    6    214.64   308.33   B
+ 8    Acrolein                      C3H4O      
+ 9    Acrylicacid                   C3H4O2      
+ 10   Acrylonitrile                 C3H3N      
+ 11   Air                           Mixture    
+ 12   Ammonia                       H3N        4.86886  1113.928   -10.409     1.7194E-02    1    239.60   371.5    B
+ 13   Anisole                       C7H8O      
+ 14   Argon                         Ar         
+ 15   Benzamide                     C7H7NO     
+ 16   Benzene                       C6H6       5.98523  1184.238   -55.623     6.9844E-06    2    279      562      A
+ 17   Benzenethiol                  C6H6S     
+ 18   Benzoicacid                   C7H6O2     4.47834  1771.357   -127.484    2.3248E-19    6    369      522.4    B
+ 19   Benzonitrile                  C7H5N      
+ 20   Benzophenone                  C13H10O   
+ 21   Benzylalcohol                 C7H8O      
+ 22   Benzylethylether              C9H12O     
+ 23   Benzylmercaptan               C7H8S      
+ 24   Biphenyl                      C12H10     6.19175  1845.010   -87.641     2.2385E-18    6    408      600      A
+ 25   Bromine                       Br2        
+ 26   Bromobenzene                  C6H5Br     6.08025  1500.447   -60.898     5.2136E-18    6    329      429      A
+ 27   Bromoethane                   C2H5Br     6.04485  1090.81    -41.44      5.2136E-18    6    221      343      A
+ 28   Bromomethane                  CH3Br      6.21313  1044.42    -28.47      1.1553E-05    2    195      307      A
+ 29   1,2-Butadiene                 C4H6       6.315    1131.55    -21.2       6.9379E-18    6    205      306      A
+ 30   1,3-Butadiene                 C4H6       5.9664   927.21     -34.52      1.2269E-05    2    275      425      A
+ 31   Butane                        C4H10      5.93266  935.773    -34.361     9.4509E-06    2    196      425      A
+ 32   1,2-Butanediol                C4H10O2    
+ 33   1,3-Butanediol                C4H10O2    
+ 34   1-Butanol                     C4H10O     4.54607  1351.555   -93.34      1.0832E-17    6    295.8    391.0    B
+ 35   2-Butanol                     C4H10O     4.19827  1094.254   -111.603    1.8738E-17    6    422.11   535.9    B
+ 36   1-Butene                      C4H8       5.9178   908.8      -34.6125    4.8833E-17    6    194      418.9    A
+ 37   cis-2-Butene                  C4H8      
+ 38   trans-2-Butene                C4H8       
+ 39   Butylacetate                  C6H12O2   
+ 40   Butylbenzene                  C10H14     6.42395  1785.05    -51.55      5.9208E-06    2    210      337      A
+ 41   Butylmercaptan                C4H10S     
+ 42   sec-Butylmercaptan            C4H10S     
+ 43   1-Butyne                      C4H6       6.16676  1014.45    -37.41      1.0161E-05    2    200      310      A
+ 44   Butyraldehyde                 C4H8O      
+ 45   Butyricacid                   C4H8O2     
+ 46   Butyronitrile                 C4H7N      
+ 47   Carbondioxide                 CO2        
+ 48   Carbondisulfide               CS2        
+ 49   Carbonmonoxide                CO         
+ 50   Carbontetrachloride           CCl4       
+ 51   Carbontetrafluoride           CF4        
+ 52   Chlorine                      Cl2        
+ 53   Chlorobenzene                 C6H5Cl     6.10667  1433.575   -55.277     4.7030E-18    6    335      405      A
+ 54   Chloroethane                  C2H5Cl     6.09088  1020.63    -35.58      7.9404E-06    2    211      322      A
+ 55   Chloroform                    CHCl3      5.96288  1106.94    -54.598     2.4578E-02    1    209.6    374      A
+ 56   Chloromethane                 CH3Cl      6.16533  920.86     -27.57      1.0371E-05    2    175.5    276      A
+ 57   1-Chloropropane               C3H7Cl     6.07655  1125.09    -43.29      8.4486E-06    2    228.0    354      A
+ 58   2-Chloropropane               C3H7Cl     5.3643   779.7      -76.65      1.3260E-17    6    220      341      A
+ 59   m-Cresol                      C7H8O      
+ 60   o-Cresol                      C7H8O      
+ 61   p-Cresol                      C7H8O      
+ 62   Cumene                        C9H12      
+ 63   Cyanogen                      C2N2       
+ 64   Cyclobutane                   C4H8       6.04436  1025.5     -31.72      1.4934E-02    1    200      459.5    A
+ 65   Cyclohexane                   C6H12      5.93002  1182.77    -52.532     9.7554E-18    6    279.8    553.5    A
+ 66   Cyclohexanol                  C6H12O     
+ 67   Cyclohexanone                 C6H10O     
+ 68   Cyclohexene                   C6H10      6.07024  1260.609   -45.847     8.2566E-06    2    226      329      A
+ 69   Cyclopentane                  C5H10      6.06783  1152.57    -38.64      6.1930E-06    2    236      511.5    A
+ 70   Cyclopentene                  C5H8       6.04518  1121.202   -39.810     6.8165E-06    2    195      320      A
+ 71   Cyclopropane                  C3H6       
+ 72   Cyclohexylmercaptan           C6H12S     
+ 73   Decanal                       C10H20O    5.33284  2378.316   -35.245     1.4625E-05    2    325.1    481.7    B
+ 74   Decane                        C10H22     6.06853  1495.17    -79.292     7.1266E-06    2    338      617      A
+ 75   Decanoicacid                  C10H20O2   
+ 76   1-Decanol                     C10H22O    3.51869  1180.306   -168.829    8.5006E-18    6    378      504      B
+ 77   1-Decene                      C10H20     6.85002  1899.31    -44.86      6.3750E-18    6    205      331      A
+ 78   Decylmercaptan                C10H22S    
+ 79   1-Decyne                      C10H18     6.02929  1455.010   -85.359     1.1020E-05    2    365      450      A
+ 80   Deuterium                     D2         
+ 81   1,1-Dibromoethane             C2H4Br2    6.3303   1412       -54.65      1.0427E-06    2    279      415      A
+ 82   1,2-Dibromoethane             C2H4Br2    6.26105  1518.760   -47.667     8.2664E-07    2    285      405      A
+ 83   Dibromomethane                CH2Br2     
+ 84   Dibutylether                  C8H18O     
+ 85   m-Dichlorobenzene             C6H4Cl2    
+ 86   o-Dichlorobenzene             C6H4Cl2    
+ 87   p-Dichlorobenzene             C6H4Cl2    
+ 88   1,1-Dichloroethane            C2H4Cl2    6.1678   1201.05    -41.88      5.3579E-06    2    218      362      A
+ 89   1,2-Dichloroethane            C2H4Cl2    6.28356  1341.37    -43.1       9.1426E-06    2    240      395      A
+ 90   Dichloromethane               CH2Cl2    
+ 91   1,1-Dichloropropane           C3H6Cl2    6.107    1273       -50.85      6.7652E-06    2    260      395      A
+ 92   1,2-Dichloropropane           C3H6Cl2    6.06129  1280.701   -53.710     4.3172E-06    2    300      375      A
+ 93   Diethanolamine                C4H11NO2   5.26458  2328.56    -98.751     4             4    464      582.4    B
+ 94   Diethylamine                  C4H11N     
+ 95   Diethylether                  C4H10O     
+ 96   Diethylsulfide                C4H10S     
+ 97   1,1-Difluoroethane            C2H4F2     
+ 98   1,2-Difluoroethane            C2H4F2     
+ 99   Difluoromethane               CH2F2      
+ 100  Di-isopropylamine             C6H15N     
+ 101  Di-isopropylether             C6H14O     
+ 102  Di-isopropylketone            C7H14O     
+ 103  1,1-Dimethoxyethane           C4H10O2    
+ 104  1,2-Dimethoxypropane          C5H12O2  
+ 105  Dimethylacetylene             C4H6       
+ 106  Dimethylamine                 C2H7N      
+ 107  2,3-Dimethylbutane            C6H14      5.93486   1127.4    -44.169     0             0    236      499      A
+ 108  1,1-Dimethylcyclohexane       C8H16      
+ 109  cis-1,2-Dimethylcyclohexane   C8H16      
+ 110  trans-1,2-Dimethylcyclohexane C8H16      
+ 111  Dimethyldisulfide             C2H6S2     
+ 112  Dimethylether                 C2H6O      
+ 113  N,N-Dimethylformamide         C3H7NO     
+ 114  2,3-Dimethylpentane           C7H16      5.94392  1191.96    -49.652     6.4311E-06    2    261      520      A
+ 115  Dimethylphthalate             C10H10O4   
+ 116  Dimethylsilane                C2H8Si     
+ 117  Dimethylsulfide               C2H6S      
+ 118  Dimethylsulfoxide             C2H6OS     
+ 119  Dimethylterephthalate         C10H10O4   
+ 120  1,4-Dioxane                   C4H8O2     
+ 121  Diphenylether                 C12H10O    
+ 122  Dipropylamine                 C6H15N     
+ 123  Dodecane                      C12H26     6.12285  1639.27    -91.315     8.0906E-06    2    367      530      A
+ 124  Eicosane                      C20H42     
+ 125  Ethane                        C2H6       5.95405  663.72     -16.469     1.4913E-05    2    133      305      A
+ 126  Ethanol                       C2H6O      4.92531  1432.526   -61.819     2.8853E-06    2    364.8    513.91   A
+ 127  Ethylacetate                  C4H8O2     
+ 128  Ethylamine                    C2H7N      
+ 129  Ethylbenzene                  C8H10      6.06861  1415.771   -60.851     1             1    302      616      A
+ 130  Ethylbenzoate                 C9H10O2    
+ 131  2-Ethylbutanoicacid           C6H12O2    
+ 132  Ethylbutyrate                 C6H12O2    
+ 133  Ethylcyclohexane              C8H16      5.9702   1369.41    -59.55      4.5901E-06    2    288      446      A
+ 134  Ethylcyclopentane             C7H14      6.00408  1293.71    -53.03      7.4578E-06    2    270      569      A
+ 135  Ethylene                      C2H4       5.91382  596.528    -16.78      1.9079E-05    2    122      282      A
+ 136  Ethylenediamine               C2H8N2     
+ 137  Ethyleneglycol                C2H6O2     
+ 138  Ethyleneimine                 C2H5N      
+ 139  Ethyleneoxide                 C2H4O      
+ 140  Ethylformate                  C3H6O2     
+ 141  2-Ethylhexanoicacid           C8H16O2    
+ 142  Ethylhexylether               C8H18O     
+ 143  Ethylisopropylether           C5H12O     
+ 144  Ethylisopropylketone          C6H12O     
+ 145  Ethylmercaptan                C2H6S      
+ 146  Ethylpropionate               C5H10O2    
+ 147  Ethylpropylether              C5H12O     
+ 148  Ethyltrichlorosilane          C2H5Cl3Si  
+ 149  Fluorine                      F2         
+ 150  Fluorobenzene                 C6H5F             
+ 151  Fluoroethane                  C2H5F      6.21998  897.368    -22.48      9.8969E-06    2    164      375.28   A
+ 152  Fluoromethane                 CH3F       
+ 153  Formaldehyde                  CH2O       
+ 154  Formamide                     CH3NO     
+ 155  Formicacid                    CH2O2      
+ 156  Furan                         C4H4O      
+ 157  Helium-4                      He         
+ 158  Heptadecane                   C17H36     6.1392   1865.1     -123.95     6.4559E-06    2    438      620      A
+ 159  Heptanal                      C7H14O     
+ 160  Heptane                       C7H16      6.02023  1263.91    -56.718     7.2099E-06    2    274      539.2    A
+ 161  Heptanoicacid                 C7H14O2    
+ 162  1-Heptanol                    C7H16O     
+ 163  2-Heptanol                    C7H16O     
+ 164  3-Heptanone                   C7H14O     
+ 165  2-Heptanone                   C7H14O    
+ 166  1-Heptene                     C7H14      6.02677  1258.34    -53.85      2.0091E-17    6    270      537.3    A
+ 167  Heptylmercaptan               C7H16S     
+ 168  1-Heptyne                     C7H12      6.0737   1289.5     -56.15      1.4357E-17    6    269      408      A
+ 169  Hexadecane                    C16H34     156.06   -15015     -18.941     6.8172E-06    2    291.31   723      A
+ 170  Hexanal                       C6H12O     81.507   -7776.8    -8.4516     1.5143E-17    6    217.15   591      A
+ 171  Hexane                        C6H14      104.65   -6995.5    -12.702     1.2381E-05    2    177.83   507.6    A
+ 172  Hexanoicacid                  C6H12O2    114.05   -12332     -12.45      5.6253E-18    6    269.25   660.2    A
+ 173  1-Hexanol                     C6H14O     135.421  -12288     -15.732     1.2701E-17    6    228.55   611.3    A
+ 174  2-Hexanol                     C6H14O     109.42   -10449     -12.051     2.6122E-46    16   223      585.3    A
+ 175  2-Hexanone                    C6H12O     107.44   -8528.6    -12.679     8.4606E-06    2    217.35   587.61   A
+ 176  3-Hexanone                    C6H12O     73.155   -7242.9    -7.2569     1.2741E-17    6    217.5    582.82   A
+ 177  1-Hexene                      C6H12      51.024   -4986.4    -4.2463     1.6768E-17    6    133.39   504      A
+ 178  3-Hexyne                      C6H10      47.091   -5104      -3.6371     5.1621E-04    1    170.05   544      A
+ 179  Hexylmercaptan                C6H14S     68.467   -7390.5    -6.5456     7.7611E-18    6    192.62   623      A
+ 180  1-Hexyne                      C6H10      133.2    -7492.9    -18.405     2.2062E-02    1    141.25   516.2    A
+ 181  2-Hexyne                      C6H10      123.71   -7639      -16.451     1.6495E-02    1    183.65   549      A
+ 182  Hydrazine                     H4N2       76.858   -7245.2    -8.22       6.1557E-03    1    274.69   653.15   A
+ 183  Hydrogen                      H2         12.69    -94.896     1.1125      3.2915E-04    2    13.95    33.19    A
+ 184  Hydrogenbromide               HBr        29.315   -2424.5    -1.1354     2.3806E-18    6    185.15   363.15   A
+ 185  Hydrogenchloride              HCl        104.27   -3731.2    -15.047     3.1340E-02    1    158.97   324.65   A
+ 186  Hydrogencyanide               CHN        36.75    -3927.1    -2.1245     3.8948E-17    6    259.83   456.65   A
+ 187  Hydrogenfluoride              HF         59.544   -4143.8    -6.1764     1.4161E-05    2    189.79   461.15   A
+ 188  Hydrogensulfide               H2S        85.584   -3839.9    -11.199     1.8848E-02    1    187.68   373.53   A
+ 189  Isobutyricacid                C4H8O2     110.38   -10540     -12.262     1.4310E-17    6    227.15   605      A
+ 190  Isopropylamine                C3H9N      136.66   -7201.5    -18.934     2.2255E-02    1    177.95   471.85   A
+ 191  Malonicacid                   C3H4O4     122.92   -16258     -13.113     2.0609E-18    6    407.95   805      A
+ 192  Methacrylicacid               C4H6O2     109.53   -10410     -12.289     3.1990E-06    2    288.15   662      A
+ 193  Methane                       CH4        39.205   -1324.4    -3.4366     3.1019E-05    2    90.69    190.56   A
+ 194  Methanol                      CH4O       82.718   -6904.5    -8.8622     7.4664E-06    2    175.47   512.5    A
+ 195  N-Methylacetamide             C3H7NO     79.128   -9523.9    -7.7355     3.1616E-18    6    301.15   718      A
+ 196  Methylacetate                 C3H6O2     61.267   -5618.6    -5.6473     2.1080E-17    6    175.15   506.55   A
+ 197  Methylacetylene               C3H4       50.242   -3811.9    -4.2526     6.5326E-17    6    170.45   402.4    A
+ 198  Methylacrylate                C4H6O2     107.69   -7027.2    -13.916     1.5185E-02    1    196.32   536      A
+ 199  Methylamine                   CH5N       75.206   -5082.8    -8.0919     8.1130E-06    2    179.69   430.05   A
+ 200  Methylbenzoate                C8H8O2     84.828   -9334.7    -8.7063     6.1723E-18    6    260.75   693      A
+ 201  3-Methyl-1,2-butadiene        C5H8       66.575   -5213.4    -6.7693     4.8106E-06    2    159.53   490      A
+ 202  2-Methylbutane                C5H12      71.308   -4976      -7.7169     8.7271E-06    2    113.25   460.4    A
+ 203  2-Methylbutanoicacid          C5H10O2    85.383   -9575.4    -8.6164     5.6124E-18    6    193      643      A
+ 204  3-Methyl-1-butanol            C5H12O     121.85   -10976     -13.869     1.4283E-17    6    155.95   577.2    A
+ 205  2-Methyl-1-butene             C5H10      93.131   -5525.4    -11.852     1.4205E-02    1    135.58   465      A
+ 206  2-Methyl-2-butene             C5H10      83.927   -5640.5    -9.6453     1.1121E-05    2    139.39   470      A
+ 207  2-Methyl-1-butene-3-yne       C5H6       95.453   -5448.8    -12.384     1.5643E-02    1    160.15   492      A
+ 208  Methylbutylether              C5H12O     60.164   -5621.7    -5.53       1.8629E-17    6    157.48   512.74   A
+ 209  Methylbutylsulfide            C5H12S     96.344   -7856.3    -11.058     7.3080E-06    2    175.3    593      A
+ 210  3-Methyl-1-butyne             C5H8       69.459   -5250      -7.1125     7.9289E-17    6    183.45   463.2    A
+ 211  Methylbutyrate                C5H10O2    71.87    -6885.7    -7.0944     1.4903E-17    6    187.35   554.5    A
+ 212  Methylchlorosilane            CH5ClSi    95.984   -5401.7    -11.829     1.8092E-05    2    139.05   442      A
+ 213  Methylcyclohexane             C7H14      92.684   -7080.8    -10.695     8.1366E-06    2    146.58   572.1    A
+ 214  1-Methylcyclohexanol          C7H14O     134.63   -10682     -16.511     8.4427E-06    2    299.15   686      A
+ 215  cis-2-Methylcyclohexanol      C7H14O     125.1    -10288     -15.157     1.0918E-05    2    280.15   614      A
+ 216  trans-2-Methylcyclohexanol    C7H14O     54.179   -7477.2    -4.22       3.5225E-18    6    269.15   617      A
+ 217  Methylcyclopentane            C6H12      55.368   -5149.8    -5.0136     3.2220E-06    2    130.73   532.7    A
+ 218  1-Methylcyclopentene          C6H10      52.732   -5286.9    -4.4509     1.0883E-17    6    146.62   542      A
+ 219  3-Methylcyclopentene          C6H10      52.601   -5120.3    -4.4554     1.3288E-17    6    115      526      A
+ 220  Methyldichlorosilane          CH4Cl2Si   79.788   -5420      -9.0702     1.1489E-05    2    182.55   483      A
+ 221  Methylethylether              C3H8O      78.586   -5176.3    -8.7501     9.1727E-06    2    160      437.8    A
+ 222  Methylethylketone             C4H8O      72.698   -6143.6    -7.5779     5.6476E-06    2    186.48   535.5    A
+ 223  Methylethylsulfide            C3H8S      79.07    -6114.1    -8.631      6.5333E-06    2    167.23   533      A
+ 224  Methylformate                 C2H4O2     77.184   -5606.1    -8.392      7.8468E-06    2    174.15   487.2    A
+ 225  Methylisobutylether           C5H12O     57.984   -5339.6    -5.2362     2.0767E-17    6    150      497      A
+ 226  Methylisobutylketone          C6H12O     80.503   -7421.8    -8.379      1.8114E-17    6    189.15   574.6    A
+ 227  MethylIsocyanate              C2H3NO     57.612   -5197.9    -5.1269     2.1702E-17    6    256.15   488      A
+ 228  Methylisopropylether          C4H10O     53.867   -4701      -4.7052     2.8791E-17    6    127.93   464.48   A
+ 229  Methylisopropylketone         C5H10O     45.242   -5324.4    -3.2551     3.0363E-18    6    180.15   553.4    A
+ 230  Methylisopropylsulfide        C4H10S     52.82    -5437.7    -4.442      9.5103E-18    6    171.64   553.1    A
+ 231  Methylmercaptan               CH4S       54.15    -4337.7    -4.8127     4.5000E-17    6    150.18   469.95   A
+ 232  Methylmethacrylate            C5H8O2     107.36   -8085.3    -12.72      8.3307E-06    2    224.95   566      A
+ 233  2-Methyloctanoicacid          C9H18O2    105.7    -12458     -11.234     4.4629E-18    6    240      694      A
+ 234  2-Methylpentane               C6H14      53.579   -5041.2    -4.6404     1.9443E-17    6    119.55   497.7    A
+ 235  Methylpentylether             C6H14O     61.907   -6188.9    -5.706      1.1767E-17    6    176      546.49   A
+ 236  2-Methylpropane               C4H10      108.43   -5039.9    -15.012     2.2725E-02    1    113.54   407.8    A
+ 237  2-Methyl-2-propanol           C4H10O     172.27   -11589     -22.113     1.3703E-05    2    298.97   506.2    A
+ 238  2-Methylpropene               C4H8       78.01    -4634.1    -8.9575     1.3413E-05    2    132.81   417.9    A
+ 239  Methylpropionate              C4H8O2     70.717   -6439.7    -6.9845     2.0129E-17    6    185.65   530.6    A
+ 240  Methylpropylether             C4H10O     67.942   -5419.1    -6.8067     4.7778E-17    6    133.97   476.25   A
+ 241  Methylpropylsulfide           C4H10S     83.711   -6786.9    -9.2526     6.6666E-06    2    160.17   565      A
+ 242  Methylsilane                  CH6Si      37.205   -2590.3    -2.5993     6.0508E-06    2    116.34   352.5    A
+ 243  a-Methylstyrene               C9HIO      56.485   -6954.2    -4.7889     2.7753E-18    6    249.95   654      A
+ 244  Methyltert-butylether         C5HI2O     57.151   -5201.7    -5.1429     1.6529E-17    6    164.55   497.1    A
+ 245  Methylvinylether              C3H6O      51.085   -4271      -4.307      3.0530E-17    6    151.15   437      A
+ 246  Naphthalene                   C10H8      62.964   -8137.5    -5.6317     2.2675E-18    6    353.43   748.4    A
+ 247  Neon                          Ne         29.755   -271.06     -2.6081     5.2700E-04    2    24.56    44.4     A
+ 248  Nitroethane                   C2H5NO2    75.632   -7202.3    -7.6464     1.8250E-17    6    183.63   593      A
+ 249  Nitrogen                      N2         58.282   -1084.1    -8.3144     4.4127E-02    1    63.15    126.2    A
+ 250  Nitrogentrifluoride           F3N        68.149   -2257.9    -8.9118     2.3233E-02    1    66.46    234      A
+ 251  Nitromethane                  CH3NO2     57.278   -6089      -4.9821     1.2154E-17    6    244.6    588.15   A
+ 252  Nitrousoxide                  N2O        96.512   -4045      -12.277     2.8860E-05    2    182.3    309.57   A
+ 253  Nitricoxide                   NO         72.974   -2650      -8.261      9.7000E-15    6    109.5    180.15   A
+ 254  Nonadecane                    CI9H4O     182.54   -17897     -22.498     7.4008E-06    2    305.04   758      A
+ 255  Nonanal                       C9HI8O     337.71   -18506     -50.224     4.7345E-02    1    255.15   658      A
+ 256  Nonane                        C9H2O      109.35   -9030.4    -12.882     7.8544E-06    2    219.66   594.6    A
+ 257  Nonanoicacid                  C9HI8O2    137.6    -14948     -15.618     5.5660E-18    6    285.55   710.7    A
+ 258  1-Nonanol                     C9H2OO     162.854  -15205     -19.424     1.0722E-17    6    268.15   670.9    A
+ 259  2-Nonanol                     C9H2OO     146.46   -13813     -17.158     8.6279E-40    14   238.15   649.5    A
+ 260  1-Nonene                      C9HI8      63.313   -7040.4    -5.8055     7.5753E-18    6    191.91   593.1    A
+ 261  Nonylmercaptan                C9H2OS     106.2    -10982     -11.696     8.8955E-18    6    253.05   681      A
+ 262  1-Nonyne                      C9HI6      114.77   -9430.8    -13.631     8.1918E-06    2    223.15   598.05   A
+ 263  Octadecane                    C18H38     157.68   -16093     -18.954     5.9272E-06    2    301.31   747      A
+ 264  Octanal                       C8H16O     83.601   -8865.8    -8.5711     7.9446E-18    6    246      638.9    A
+ 265  Octane                        C8H18      96.084   -7900.2    -11.003     7.1802E-06    2    216.38   568.7    A
+ 266  Octanoicacid                  C8H16O2    140.16   -14813     -16.004     6.4239E-18    6    289.65   694.26   A
+ 267  1-Octanol                     C8H18O     144.111  -13667     -16.826     9.3666E-18    6    257.65   652.3    A
+ 268  2-Octanol                     C8H18O     133.41   -12630     -15.369     2.9939E-41    14   241.55   629.8    A
+ 269  2-Octanone                    C8H16O     63.775   -7711.3    -5.7359     3.0902E-18    6    252.85   632.7    A
+ 270  3-Octanone                    C8H16O     72.382   -8054.8    -7.0002     5.8276E-18    6    255.55   627.7    A
+ 271  1-Octene                      C8H16      74.936   -7155.9    -7.5843     1.7106E-17    6    171.45   566.9    A
+ 272  Octylmercaptan                C8H18S     78.368   -8855.4    -7.8202     5.6629E-18    6    223.95   667.3    A
+ 273  1-Octyne                      C8H14      64.612   -6802.5    -6.0261     1.1013E-17    6    193.55   574      A
+ 274  Oxalicacid                    C2H2O4     122.04   -16050     -12.986     2.0871E-18    6    462.65   804      A
+ 275  Oxygen                        O2         51.245   -1200.2    -6.4361     2.8405E-02    1    54.36    154.58   A
+ 276  Ozone                         O3         40.067   -2204.8    -2.9351     7.7520E-16    6    80.15    261      A
+ 277  Pentadecane                   C15H32     135.57   -13478     -16.022     5.6136E-06    2    283.07   708      A
+ 278  Pentanal                      C5H10O     149.58   -8890      -20.697     2.2101E-02    1    182      566.1    A
+ 279  Pentane                       C5H12      78.741   -5420.3    -8.8253     9.6171E-06    2    143.42   469.7    A
+ 280  Pentanoicacid                 C5H10O2    101.7    -10955     -10.829     7.1880E-18    6    239.15   639.16   A
+ 281  1-Pentanol                    C5H12O     114.748  -10643     -12.858     1.2491E-17    6    195.56   588.1    A
+ 282  2-Pentanol                    C5H12O     122.26   -10774     -13.943     1.0700E-42    15   200      561      A
+ 283  2-Pentanone                   C5H10O     84.635   -7078.4    -9.3        6.2702E-06    2    196.29   561.08   A
+ 284  3-Pentanone                   C5H10O     44.286   -5415.1    -3.0913     1.8580E-18    6    234.18   560.95   A
+ 285  1-Pentene                     C5H10      46.994   -4289.5    -3.7345     2.5424E-17    6    108.02   464.8    A
+ 286  2-Pentylmercaptan             C5H12S     58.985   -6193.1    -5.2746     7.3986E-18    6    160.75   584.3    A
+ 287  Pentylmercaptan               C5H12S     67.309   -6880.8    -6.4449     1.0148E-17    6    197.45   598      A
+ 288  1-Pentyne                     C5H8       82.805   -5683.8    -9.4301     1.0767E-05    2    167.45   481.2    A
+ 289  2-Pentyne                     C5H8       137.29   -7447.1    -19.01      2.1415E-02    1    163.83   519      A
+ 290  Phenanthrene                  C14H10     72.958   -10943     -6.7902     1.0850E-18    6    372.38   869      A
+ 291  Phenol                        C6H6O      95.444   -10113     -10.09      6.7603E-18    6    314.06   694.25   A
+ 292  Phenylisocyanate              C7H5NO     86.779   -8101.8    -9.5303     6.1367E-06    2    243.15   653      A
+ 293  Phthalicanhydride             C8H4O3     126.5    -12551     -15.002     7.7521E-06    2    404.15   791      A
+ 294  Propadiene                    C3H4       57.069   -3682.7    -5.5662     6.5133E-06    2    136.87   394      A
+ 295  Propane                       C3H8       59.078   -3492.6    -6.0669     1.0919E-05    2    85.47    369.83   A
+ 296  1-Propanol                    C3H8O      84.6642  -8307.2    -8.5767     7.5091E-18    6    146.95   536.8    A
+ 297  2-Propanol                    C3H8O      96.094   -8575.4    -10.292     1.6665E-17    6    185.26   508.3    A
+ 298  Propenylcyclohexene           C9H14      64.268   -7298.9    -5.9109     4.8482E-18    6    199      636      A
+ 299  Propionaldehyde               C3H6O      80.581   -5896.1    -8.9301     8.2236E-06    2    170      504.4    A
+ 300  Propionicacid                 C3H6O2     54.552   -7149.4    -4.2769     1.1843E-18    6    252.45   600.81   A
+ 301  Propionitrile                 C3H5N      82.699   -6703.5    -9.1506     7.5424E-06    2    180.26   564.4    A
+ 302  Propylacetate                 C5H10O2    115.16   -8433.9    -13.934     1.0346E-05    2    178.15   549.73   A
+ 303  Propylamine                   C3H9N      58.398   -5312.7    -5.2876     1.9913E-06    2    188.36   496.95   A
+ 304  Propylbenzene                 C9H12      91.379   -8276.8    -10.176     5.6240E-06    2    173.55   638.35   A
+ 305  Propylene                     C3H6       43.905   -3097.8    -3.4425     9.9989E-17    6    87.89    364.85   A
+ 306  Propylformate                 C4H8O2     104.08   -7535.9    -12.348     9.6020E-06    2    180.25   538      A
+ 307  2-Propylmercaptan             C3H8S      60.43    -5276.9    -5.6572     2.6039E-17    6    142.61   517      A
+ 308  Propylmercaptan               C3H8S      62.165   -5624      -5.8595     2.0597E-17    6    159.95   536.6    A
+ 309  1,2-Propyleneglycol           C3H8O2     212.8    -15420     -28.109     2.1564E-05    2    213.15   626      A
+ 310  Quinone                       C6H4O2     48.651   -7289.5    -3.4453     1.0068E-18    6    388.85   683      A
+ 311  Silicontetrafluoride          F4Si       272.85   -9548.9    -40.089     6.3699E-15    6    186.35   259      A
+ 312  Styrene                       C8H8       105.93   -8685.9    -12.42      7.5583E-06    2    242.54   636      A
+ 313  Succinicacid                  C4H6O4     128.65   -16958     -13.872     2.1559E-18    6    460.65   806      A
+ 314  Sulfurdioxide                 O2S        47.365   -4084.5    -3.6469     1.7990E-17    6    197.67   430.75   A
+ 315  Sulfurhexafluoride            F6S        29.16    -2383.6    -1.1342     0             0    223.15   318.69   A
+ 316  Sulfurtrioxide                O3S        180.99   -12060     -22.839     7.2350E-17    6    289.95   490.85   A
+ 317  Terephthalicacid              C8H6O4     248.72   -32238     -30.009     4.7950E-06    2    700.15   1113     A
+ 318  o-Terphenyl                   C18H14     110.52   -14045     -11.861     2.2121E-18    6    329.35   857      A
+ 319  Tetradecane                   C14H30     140.47   -13231     -16.859     6.5877E-06    2    279.01   693      A
+ 320  Tetrahydrofuran               C4H8O      54.898   -5305.4    -4.7627     1.4291E-17    6    164.65   540.15   A
+ 321  1,2,3,4-Tetrahydronaphthalene C10H12     137.23   -10620     -17.908     1.4506E-02    1    237.38   720      A
+ 322  Tetrahydrothiophene           C4H8S      75.881   -6910.6    -7.9499     4.4315E-06    2    176.99   631.95   A
+ 323  2,2,3,3-Tetramethylbutane     C8H18      57.963   -5901.5    -5.2048     9.1301E-18    6    373.96   568      A
+ 324  Thiophene                     C4H4S      93.193   -7001.5    -10.738     8.2308E-06    2    234.94   579.35   A
+ 325  Toluene                       C7H8       76.945   -6729.8    -8.179      5.3017E-06    2    178.18   591.75   A
+ 326  1,1,2-Trichloroethane         C2H3Cl3    54.153   -6041.8    -4.5383     4.9833E-18    6    236.5    602      A
+ 327  Tridecane                     C13H28     137.45   -12549     -16.543     7.1275E-06    2    267.76   675      A
+ 328  Triethylamine                 C6H15N     56.55    -5681.9    -4.9815     1.2363E-17    6    158.45   535.15   A
+ 329  Trimethylamine                C3H9N      134.68   -6055.8    -19.415     2.8619E-02    1    156.08   433.25   A
+ 330  1,2,3-Trimethylbenzene        C9H12      78.341   -8019.8    -8.1458     3.8971E-06    2    247.79   664.5    A
+ 331  1,2,4-Trimethylbenzene        C9H12      85.301   -8215.9    -9.2166     4.7979E-06    2    229.33   649.1    A
+ 332  2,2,4-Trimethylpentane        C8H18      84.912   -6722.2    -9.5157     7.2244E-06    2    165.78   543.8    A
+ 333  2,3,3-Trimethylpentane        C8H18      83.105   -6903.7    -9.1858     6.4703E-06    2    172.22   573.5    A
+ 334  1,3,5-Trinitrobenzene         C6H3N3O6   506.33   -37483     -69.22      2.7381E-05    2    398.4    846      A
+ 335  2,4,6-Trinitrotoluene         C7H5N3O6   302      -24324     -40.13      1.7403E-05    2    354      828      A
+ 336  Undecane                      C11H24     131      -11143     -15.855     8.1871E-06    2    247.57   639      A
+ 337  1-Undecanol                   C11H24O    182.571  -17112     -22.125     1.12835E-17   6    288.45   703.9    A
+ 338  Vinylacetate                  C4H6O2     57.406   -5702.8    -5.0307     1.1042E-17    6    180.35   519.13   A
+ 339  Vinylacetylene                C4H4       55.682   -4439.3    -5.0136     1.9650E-17    6    173.15   454      A
+ 340  Vinylchloride                 C2H3Cl     91.432   -5141.7    -10.981     1.4318E-05    2    119.36   432      A
+ 341  Vinyltrichlorosilane          C2H3Cl3Si  54.571   -5561.5    -4.712      1.0702E-17    6    178.35   543.15   A
+ 342  Water                         H2O        73.649   -7258.2    -7.3037     4.1653E-06    2    273.16   647.096  A
+ 343  m-Xylene                      C8H10      85.099   -7615.9    -9.3072     5.5643E-06    2    225.3    617      A
+ 344  o-Xylene                      C8H10      90.405   -7955.2    -10.086     5.9594E-06    2    247.98   630.3    A
+ 345  p-Xylene                      C8H10      88.72    -7741.2    -9.8693     6.0770E-06    2    286.41   616.2    A
